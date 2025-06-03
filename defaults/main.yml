@@ -1,0 +1,4 @@
+---
+# defaults file for apache
+user: "{{ 'www-data' if ansible_os_family == 'Debian' else 'apache' }}"
+group: "{{ user }}"
