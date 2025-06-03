@@ -1,0 +1,12 @@
+---
+- name: Set up Apache web server
+  hosts: localhost
+  connection: local
+  become: yes
+  roles:
+    - /home/mohitsaini/Videos/apache
+
+
+
+
+
